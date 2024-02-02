@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "LeetFun",
+  "version": "1.0",
+  "description": "Opens new tab in window",
+  "permissions": [
+    "tabs",
+    "activeTab"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*.leetcode.com/problems/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "128": "icon.png"
+  }
+}
