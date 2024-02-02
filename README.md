@@ -1,7 +1,7 @@
 # LeetFun
 A Chrome extension that plays a song on YouTube in a new tab whenever you submit a correct solution on LeetCode.
 
-Feel free to add another song/video link in the background.js file.
+Feel free to add a song/video of your liking in the background.js file.
 
 : )
 
